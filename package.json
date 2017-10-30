@@ -4,29 +4,30 @@
         {
             "name": "Tim Caswell",
             "email": "tim@c9.io>"
-        }
+        },
+        "Sten Feldman <exile@chamber.ee> (http://sten.feldman.eesti.ee/)"
     ],
     "name": "smith",
     "description": "Smith is an RPC agent system for Node.JS used in architect and vfs.",
-    "version": "0.1.22",
+    "version": "0.1.23",
     "scripts": {
         "test": "./test-all.sh"
     },
     "licenses": [
         {
             "type": "MIT",
-            "url": "http://github.com/c9/smith/raw/master/LICENSE"
+            "url": "http://github.com/exsilium/smith/raw/master/LICENSE"
         }
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/c9/smith.git"
+        "url": "git://github.com/exsilium/smith.git"
     },
     "main": "smith.js",
     "engines": {
-        "node": ">=0.6.0"
+        "node": ">=4.8.5"
     },
     "dependencies": {
-        "msgpack-js": "~0.1.0"
+        "msgpack-js": "~0.3.0"
     }
 }
