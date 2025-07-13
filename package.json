@@ -1,6 +1,6 @@
 {
   "name": "@pylonide/smith",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Smith is an RPC agent system for Node.JS used in architect and vfs.",
   "author": "Sten Feldman <exile@chamber.ee>",
   "license": "MIT",
@@ -21,7 +21,7 @@
   },
   "main": "smith.js",
   "engines": {
-    "node": ">= 18.18.2"
+    "node": ">= 20.19.0"
   },
   "dependencies": {
     "msgpack-js": "~0.3.0"
